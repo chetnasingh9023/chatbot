@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Bankai";
+  src: url("../fonts/bankai-font/BankaiDemoVersion-lglxd.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Masmuseh";
+  src: url("../fonts/masmuseh-font/MasmusehDemoVersion-4BKyD.ttf")
+    format("truetype");
+}
+body {
+  background-image: url(../images/Cherry_blossom_tree__2X.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar-inner {
+  background: transparent;
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.brand {
+  color: #fff;
+  font-family: "Bankai";
+  font-size: 1.8rem;
+  font-stretch: wider;
+  font-weight: 1000;
+  padding-left: 1%;
+}
+.left-bar {
+  background: transparent;
+  margin-top: 30%;
+  padding-top: 5%;
+  padding-bottom: 31%;
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.left_bar_title {
+  color: black;
+  font-family: "Masmuseh";
+  font-weight: 800;
+}
+.usr_name {
+  background: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  transition: border 0.5s ease-in-out;
+}
+.usr_name:focus {
+  border: 1px solid rgb(88, 120, 236);
+}
+.right-bar {
+  background: transparent;
+  margin-top: 14%;
+  padding-top: 5%;
+  /* padding-bottom: 20%; */
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.chat {
+  height: 350px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 5px 10px 8px rgba(255, 255, 255, 0.125) inset,
+    -5px -10px 8px rgba(255, 255, 255, 0.125) inset;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  overflow: auto;
+}
+.chat-msg-usr {
+  background-color: rgba(112, 144, 112, 0.5);
+  margin: 2%;
+  border-radius: 15px;
+  width: fit-content;
+  min-width: 40px;
+  border: 1px soild rgba(112, 144, 112, 0.7);
+}
+.chat-msg-ai {
+  background-color: rgba(227, 168, 212, 0.5);
+  margin: 2%;
+  border-radius: 15px;
+  width: fit-content;
+  border: 1px soild rgba(112, 144, 112, 0.7);
+}
+.msg {
+  width: 86.5%;
+  background: transparent;
+  border-radius: 15px;
+  padding: 1%;
+  border: 1px solid rgba(255, 255, 255, 1);
+  transition: border 0.5s ease-in-out;
+}
+.msg:focus {
+  border: 1px solid rgb(88, 120, 236);
+  color: white;
+}
+#button-addon2 {
+  margin-left: 1%;
+}
+
+.icon-text {
+  position: relative;
+  bottom: 5px;
+}
